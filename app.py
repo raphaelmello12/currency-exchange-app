@@ -5,7 +5,7 @@ import requests
 
 app = Flask(__name__)
 
-# List of currencies you provided
+# List of currencies
 currencies = ['Chose a currency','USD', 'BRL', 'CAD', 'EUR', 'GBP', 'ARS', 'BTC', 'LTC', 'JPY', 'CHF', 'AUD', 'CNY', 'ILS', 'ETH', 'XRP']
 
 @app.route('/')
