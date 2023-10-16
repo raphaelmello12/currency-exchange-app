@@ -1,0 +1,33 @@
+/* Apply styles to the entire body of the HTML page */
+body {
+    font-family: "Lucida Handwriting", sans-serif;
+    text-align: center; /* Center text horizontally */
+    background-color: #f5f5f5; /* Background color */
+}
+
+/* Style the center-vertical class div */
+.center-vertical {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px inset gold; /* Golden borders */
+    padding: 20px; /* Add padding for spacing */
+    background-color: white; /* Background color for the center content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    width: 50%; /* Set a medium width for the center content */
+    text-align: center; /* Center text inside the center content */
+}
+
+/* Style the H1 header */
+h1 {
+    color: gold; /* Golden text color */
+}
+
+/* Style the form elements */
+label, select, input, button {
+    display: block;
+    margin: 10px auto; /* Add vertical spacing between elements and center them */
+    width: 80%; /* Set width to 80% for all elements */
+    text-align: center; /* Center text inside elements */
+}
